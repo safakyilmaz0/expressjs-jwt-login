@@ -17,7 +17,7 @@ mongoose.Promise = global.Promise;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-const uri = "mongodb+srv://safakyilmaz:12345@cluster0.doqa9cs.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://";
 
 mongoose.connect(uri)
     .then(() =>  console.log('connection succesful'))
